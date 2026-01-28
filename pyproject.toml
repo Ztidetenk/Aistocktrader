@@ -1,0 +1,23 @@
+[project]
+name = "aistocktrader"
+version = "0.1.0"
+description = "AI trading bot research and execution framework."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [
+  { name = "Smit Parmar" }
+]
+
+[project.dependencies]
+scikit-learn = "*"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

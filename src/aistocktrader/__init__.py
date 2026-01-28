@@ -1,0 +1,1 @@
+"""Aistocktrader core package."""
