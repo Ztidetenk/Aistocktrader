@@ -1,6 +1,6 @@
 # Aistocktrader
 
-This repository scaffolds the AI trading bot described in `PLAN.md`. The initial structure focuses on
+This repository scaffolds the AI trading bot. The initial structure focuses on
 Python-based data ingestion, feature engineering, risk controls, and backtesting. As the project grows,
 modules will be extended with broker integrations, ML/RL training, and monitoring tooling.
 
@@ -23,3 +23,4 @@ python scripts/run_live.py
 ```
 
 The live runner includes a basic auto-exit (stop-loss/take-profit) example.
+
